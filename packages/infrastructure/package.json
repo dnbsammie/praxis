@@ -1,12 +1,28 @@
 {
   "name": "@praxis/infrastructure",
   "version": "1.0.0",
-  "description": "",
+  "type": "module",
+  "description": "Concrete infrastructure adapters for Praxis.",
   "main": "index.js",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "sideEffects": false,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p tsconfig.json",
+    "check-types": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@praxis/application": "workspace:^",
+    "@praxis/domain": "workspace:*",
+    "@praxis/typescript-config": "workspace:*"
+  }
 }

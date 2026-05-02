@@ -6,7 +6,8 @@
     "dev": "svelte-kit sync && svelte-package --watch --input=src",
     "build": "svelte-kit sync && svelte-package --input=src",
     "lint": "eslint .",
-    "check-types": "svelte-check --tsconfig ./tsconfig.json"
+    "check-types": "svelte-check --tsconfig ./tsconfig.json",
+    "test": "vitest"
   },
   "files": [
     "dist",

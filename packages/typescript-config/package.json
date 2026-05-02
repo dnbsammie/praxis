@@ -4,6 +4,9 @@
   "private": true,
   "type": "module",
   "license": "MIT",
+  "scripts": {
+    "test": "vitest"
+  },
   "publishConfig": {
     "access": "public"
   }

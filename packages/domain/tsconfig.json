@@ -1,5 +1,5 @@
 {
-  "extends": "../typescript-config/tsconfig.package.json",
+  "extends": "@praxis/typescript-config/tsconfig.package.json",
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "dist"

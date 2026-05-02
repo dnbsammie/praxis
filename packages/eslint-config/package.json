@@ -5,6 +5,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "test": "vitest"
+  },
   "devDependencies": {
     "@eslint/compat": "^2.0.3",
     "@eslint/eslintrc": "^3.3.5",

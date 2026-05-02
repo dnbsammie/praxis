@@ -1,14 +1,13 @@
 {
-  "name": "@praxis/domain",
+  "name": "@praxis/content",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
+  "description": "Static content parsing utilities for Praxis.",
   "main": "index.js",
   "exports": {
     ".": "./src/index.ts"
   },
   "scripts": {
-    "check": "tsc --noEmit",
     "test": "vitest"
   },
   "keywords": [],
