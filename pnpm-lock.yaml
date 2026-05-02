@@ -107,6 +107,12 @@ importers:
         specifier: ^4.1.0
         version: 4.1.5(@types/node@24.12.2)(@vitest/browser-playwright@4.1.5)(vite@8.0.10(@types/node@24.12.2)(esbuild@0.27.7))
 
+  packages/application:
+    dependencies:
+      '@praxis/domain':
+        specifier: workspace:*
+        version: link:../domain
+
   packages/domain: {}
 
   packages/eslint-config:
@@ -143,6 +149,12 @@ importers:
         version: 8.59.1(eslint@9.39.4)(typescript@5.9.3)
 
   packages/infrastructure: {}
+
+  packages/runtime: {}
+
+  packages/storage: {}
+
+  packages/sync: {}
 
   packages/typescript-config: {}
 

@@ -1,17 +1,18 @@
 {
-  "name": "@praxis/domain",
+  "name": "@praxis/application",
   "version": "1.0.0",
-  "type": "module",
   "description": "",
   "main": "index.js",
   "exports": {
     ".": "./src/index.ts"
   },
   "scripts": {
-    "check": "tsc --noEmit",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@praxis/domain": "workspace:*"
+  }
 }
