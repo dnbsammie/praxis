@@ -1,0 +1,86 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# =========================
+# Node / pnpm
+# =========================
+node_modules/
+.npm
+.pnpm-store/
+.pnp
+.pnp.js
+
+# =========================
+# TypeScript
+# =========================
+*.tsbuildinfo
+dist/
+
+# testing
+coverage
+
+# =========================
+# SvelteKit / Vite
+# =========================
+.svelte-kit/
+build/
+.vite/
+
+# =========================
+# Environment / Express
+# =========================
+.env
+.env.*
+!.env.example
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# turbo
+.turbo
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDEs
+# =========================
+.vscode/
+.vscode-test/
+.idea/
+.zed/
+
+# =========================
+# Tauri / Rust
+# =========================
+target/
+Cargo.lock
+
+# Backup files
+**/*.rs.bk
+
+# Debug
+*.pdb
+
+# =========================
+# Misc
+# =========================
+report.*.json
+mutants.out*/
+
+# RustRover
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/

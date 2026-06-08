@@ -1,26 +1,27 @@
-<div style="text-align: center;">
-<h1>Praxis</h1>
-<picture>
-  <source media="(prefers-color-scheme: dark)"
-          srcset="./docs/img/praxis-dark.png">
-  <source media="(prefers-color-scheme: light)"
-          srcset="./docs/img/praxis-light.png">
-  <img src="./docs/img/praxis-light.png"
-       alt="Praxis Banners">
-</picture>
+<div align="center">
+  <h1>Praxis</h1>
+  <picture>
+    <source media="(prefers-color-scheme: dark)"
+            srcset="./docs/img/praxis-dark.png">
+    <source media="(prefers-color-scheme: light)"
+            srcset="./docs/img/praxis-light.png">
+    <img src="./docs/img/praxis-light.png"
+        alt="Praxis Banners">
+  </picture>
+  <br>
+  <p>
+    <a href="https://github.com/dnbsammie/praxis/issues">
+      <img src="https://img.shields.io/github/issues/dnbsammie/praxis" alt="Issues">
+    </a>
+    <a href="https://github.com/dnbsammie/praxis/stargazers">
+      <img src="https://img.shields.io/github/stars/dnbsammie/praxis" alt="Stars">
+    </a>
+    <a href="https://github.com/dnbsammie/praxis/blob/main/LICENSE">
+      <img src="https://img.shields.io/github/license/dnbsammie/praxis" alt="License">
+    </a>
+  </p>
 </div>
-<br>
-<p style="text-align: center;">
-  <a href="https://github.com/dnbsammie/praxis/issues">
-    <img src="https://img.shields.io/github/issues/dnbsammie/praxis" alt="Issues">
-  </a>
-  <a href="https://github.com/dnbsammie/praxis/stargazers">
-    <img src="https://img.shields.io/github/stars/dnbsammie/praxis" alt="Stars">
-  </a>
-  <a href="https://github.com/dnbsammie/praxis/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/dnbsammie/praxis" alt="License">
-  </a>
-</p>
+
 <h2 id="about">🎯 About The Project</h2>
 <blockquote style="border-left: 4px solid #fd2000; padding-left: 10px; color: #fafafa;">
 Offline-first, self-paced technical training platform with structured, practical learning paths that build measurable skills. Connects learning to real-world job scenarios, ensuring relevant, applicable competencies aligned with the labor market real-world work scenarios, ensuring applicable and relevant skills for the job market.
