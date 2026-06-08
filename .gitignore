@@ -57,6 +57,8 @@ Thumbs.db
 # =========================
 .vscode/
 .vscode-test/
+.idea/
+.zed/
 
 # =========================
 # Tauri / Rust

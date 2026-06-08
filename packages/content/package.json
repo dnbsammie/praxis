@@ -1,19 +1,11 @@
 {
   "name": "@praxis/content",
-  "version": "1.0.0",
+  "version": "0.1.0",
+  "private": true,
   "type": "module",
-  "description": "Static content parsing utilities for Praxis.",
-  "main": "index.js",
+  "license": "MPL-2.0",
   "exports": {
-    ".": "./src/index.ts"
-  },
-  "scripts": {
-    "test": "vitest"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@praxis/typescript-config": "workspace:*"
+    ".": "./src/index.ts",
+    "./courses/*": "./courses/*"
   }
 }

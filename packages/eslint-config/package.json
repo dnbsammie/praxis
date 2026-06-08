@@ -5,8 +5,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "scripts": {
-    "test": "vitest"
+  "exports": {
+    "./index.js": "./index.js"
   },
   "devDependencies": {
     "@eslint/compat": "^2.0.3",

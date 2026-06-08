@@ -1,12 +1,121 @@
+root = true
+
+# ==================================================
+# Global
+# ==================================================
+
 [*]
+charset = utf-8
+end_of_line = lf
 indent_style = space
 indent_size = 2
-end_of_line = lf
-insert_final_newline = true
 trim_trailing_whitespace = true
+insert_final_newline = true
+max_line_length = 120
+
+# ==================================================
+# Documentation / Obsidian
+# ==================================================
+
+[*.md]
+trim_trailing_whitespace = false
+max_line_length = off
+
+# ==================================================
+# Makefiles
+# ==================================================
+
+[{Makefile,*.mk}]
+indent_style = tab
+trim_trailing_whitespace = false
+
+# ==================================================
+# SvelteKit / TypeScript / JavaScript
+# ==================================================
+
+[*.{svelte,ts,tsx,js,jsx,mjs,cjs,mts,cts}]
+indent_size = 2
+
+# ==================================================
+# Configuration Files
+# ==================================================
+
+[*.{json,jsonc}]
+indent_size = 2
+
+[*.{yml,yaml}]
+indent_size = 2
+
+[*.toml]
+indent_size = 2
+
+# ==================================================
+# HTML / CSS
+# ==================================================
+
+[*.{html,htm}]
+indent_size = 2
+
+[*.{css,scss,sass,less}]
+indent_size = 2
+
+# ==================================================
+# SVG / XML
+# ==================================================
+
+[*.{svg,xml}]
+indent_size = 2
+
+# ==================================================
+# Rust / Tauri
+# ==================================================
 
 [*.rs]
-indent_size = 4
+indent_size = 2
 
-[*.java]
-indent_size = 4
+# ==================================================
+# Shell Scripts
+# ==================================================
+
+[*.{sh,bash,zsh}]
+indent_size = 2
+
+# ==================================================
+# Environment Files
+# ==================================================
+
+[*.env*]
+trim_trailing_whitespace = false
+
+# ==================================================
+# Minified Assets
+# ==================================================
+
+[*.min.{js,css}]
+trim_trailing_whitespace = false
+insert_final_newline = false
+
+# ==================================================
+# Lock Files
+# ==================================================
+
+[{pnpm-lock.yaml,yarn.lock,package-lock.json,bun.lock,Cargo.lock}]
+trim_trailing_whitespace = false
+insert_final_newline = false
+
+# ==================================================
+# Turborepo
+# ==================================================
+
+[turbo.json]
+indent_size = 2
+
+# ==================================================
+# Workspace Configs
+# ==================================================
+
+[.vscode/*.json]
+indent_size = 2
+
+[.github/**/*.yml]
+indent_size = 2

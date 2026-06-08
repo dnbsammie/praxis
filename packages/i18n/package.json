@@ -1,0 +1,20 @@
+{
+  "name": "@praxis/i18n",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MPL-2.0",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "check-types": "tsc --noEmit"
+  },
+  "dependencies": {
+    "svelte": "^5.54.1"
+  },
+  "devDependencies": {
+    "@praxis/typescript-config": "workspace:*",
+    "typescript": "^5.9.3"
+  }
+}

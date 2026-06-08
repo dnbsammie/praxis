@@ -1,5 +1,5 @@
 {
-  "extends": ["@praxis/typescript-config/tsconfig.base.json","@praxis/typescript-config/tsconfig.node.json","./.svelte-kit/tsconfig.json"],
+  "extends": "./.svelte-kit/tsconfig.json",
   "compilerOptions": {
     "allowJs": true,
     "checkJs": true,

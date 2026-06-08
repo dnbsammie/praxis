@@ -1,8 +1,10 @@
 <script lang="ts">
-	import { Hero, Footer } from '@praxis/ui';
+	import { Hero } from '@praxis/ui';
 </script>
+<svelte:head>
+  <title>Praxis</title>
+</svelte:head>
 
 <main>
-	<Hero/>
+  <Hero />
 </main>
-<Footer/>

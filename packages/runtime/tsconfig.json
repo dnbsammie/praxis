@@ -1,9 +1,0 @@
-{
-  "extends": "@praxis/typescript-config/tsconfig.package.json",
-  "compilerOptions": {
-    "rootDir": "src",
-    "outDir": "dist",
-    "lib": ["ES2024", "DOM"]
-  },
-  "include": ["src"]
-}
