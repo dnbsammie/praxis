@@ -1,0 +1,28 @@
+{
+  "name": "praxis",
+  "private": true,
+  "scripts": {
+    "clean": "turbo run clean",
+    "build": "turbo run build",
+    "check-types": "turbo run check-types",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "shadcn": "pnpm --filter @praxis/ui shadcn",
+    "tauri": "pnpm --filter native tauri"
+  },
+  "devDependencies": {
+    "prettier": "3.9.6",
+    "prettier-plugin-svelte": "catalog:sveltejs",
+    "turbo": "^2.11.5"
+  },
+  "packageManager": "pnpm@11.28.2+sha512.755ce2fe3c05bfd7bb412b42aff3c5c55cd38c529c6eca810475497ae36746c571e4b6e1814e6e7e4b97d7ee864b8a0e44673c3b297a50e0ac28771c5ce15d27",
+  "engines": {
+    "node": ">=24.19.0"
+  },
+  "dependencies": {
+    "@fontsource-variable/stack-sans-headline": "^5.3.0",
+    "@lucide/svelte": "^1.48.0"
+  }
+}
