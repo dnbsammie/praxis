@@ -1,0 +1,41 @@
+# ADR-NNNN: Short title in the imperative
+
+- **Status:** Proposed | Accepted | Rejected | Deprecated | Superseded by ADR-NNNN
+- **Date:** YYYY-MM-DD
+- **Deciders:** names or handles
+- **Tags:** e.g. storage, build, i18n
+
+## Context
+
+What problem are we solving? Which forces and constraints apply (offline-first, performance, platforms, open source, contributor experience)?
+
+## Decision Drivers
+
+- Driver 1
+- Driver 2
+
+## Considered Options
+
+1. Option A
+2. Option B
+3. Option C
+
+## Decision
+
+We chose **Option X**, because …
+
+## Consequences
+
+- **Positive:** …
+- **Negative / trade-offs:** …
+- **Risks and mitigations:** …
+
+## Options in Detail
+
+### Option A
+- Pros: …
+- Cons: …
+
+## Links
+
+- Related ADRs, issues, docs, benchmarks

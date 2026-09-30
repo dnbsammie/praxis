@@ -1,3 +1,3 @@
-import { config } from '@repo/eslint-config';
+import { config } from '@praxis/eslint-config';
 
 export default config;
