@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { CounterView } from '@repo/ui';
+	import { CounterView } from '@praxis/ui';
 </script>
 
 <h1>Web</h1>
